@@ -1,0 +1,12 @@
+# Segredos e ambiente
+.env
+*.tfvars
+
+# Saída do Airflow (vai para o Databricks, não para o Git)
+chegada/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
